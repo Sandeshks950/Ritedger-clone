@@ -54,6 +54,11 @@ body {
   font-size: 1.2vw;
   font-weight: 400;
 }
+#nav-part1 i {
+  font-size: 1.4vw;
+  font-weight: 400;
+  color: #1e1e1e;
+}
 
 #nav-part2 {
   width: 8vw;
@@ -79,6 +84,11 @@ body {
 }
 
 #nav-part1 h4:hover {
+  color: #186b96;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#nav-part1 h4:hover i {
   color: #186b96;
   cursor: pointer;
   transition: 0.5s;
