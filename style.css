@@ -599,7 +599,7 @@ span {
   height: 14vw;
   width: 18vw;
   margin-right: 6vw;
-  /* object-fit: cover; */
+  object-fit: fill;
   padding: 3vw;
   border: 2px solid #0274be;
 }
