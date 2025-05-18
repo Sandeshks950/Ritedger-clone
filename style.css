@@ -746,3 +746,310 @@ i {
   font-size: 2.6vw;
   color: #ffffff;
 }
+
+@media (max-width: 600px) {
+  #nav {
+    background-color: #ffffff;
+    height: 10.4vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1.3vw;
+  }
+
+  #nav img {
+    height: 18vw;
+    width: 55vw;
+  }
+
+  #nav-part1 h4 {
+    display: none;
+  }
+
+  #nav-part2 {
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #nav-part2 button {
+    width: 22vw;
+    height: 12vw;
+    font-size: 4vw;
+  }
+
+  #content {
+    height: 43.5vh;
+  }
+
+  #overlay h2 {
+    font-size: 4.6vw;
+  }
+  #overlay h3 {
+    font-size: 4.6vw;
+  }
+
+  #overlay {
+    height: fit-content;
+  }
+
+  #page2-title {
+    height: fit-content;
+    margin-bottom: 4vw;
+    margin-top: 8dvw;
+  }
+
+  #page2-title h1 {
+    font-size: 4.6vw;
+  }
+
+  .underLine {
+    width: 20vw;
+    left: 40%;
+    margin-top: 1vw;
+  }
+
+  #card-container1 {
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .card {
+    height: 46vw;
+    width: 90%;
+  }
+
+  .card-part1 {
+    width: 30vw;
+  }
+
+  .circle {
+    height: 16vw;
+    width: 16vw;
+  }
+
+  .card-part2 h2 {
+    font-size: 4.2vw;
+    margin-bottom: 2vw;
+  }
+
+  .card-part2 p {
+    font-size: 3.6vw;
+    line-height: 6vw;
+  }
+
+  #contact {
+    height: 40vw;
+  }
+
+  #contact #button {
+    width: 32vw;
+    height: 8vw;
+  }
+
+  #contact h2 {
+    font-size: 3.6vw;
+  }
+
+  #contact #button h2,
+  i {
+    font-size: 3.2vw;
+  }
+
+  #page3-title {
+    height: fit-content;
+    margin-bottom: 8vw;
+    margin-top: 5vw;
+  }
+
+  #page3-title h1 {
+    font-size: 4.6vw;
+  }
+
+  #card-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .card2 {
+    height: 46vw;
+    width: 90%;
+  }
+
+  .circle2 {
+    height: 18vw;
+    width: 18vw;
+  }
+
+  .card2 h2 {
+    font-size: 4.4vw;
+  }
+  .card2 p {
+    font-size: 3.3vw;
+    line-height: 5.4vw;
+  }
+
+  .circle2 i {
+    font-size: 9vw;
+  }
+
+  #page4-title {
+    height: fit-content;
+    width: 100%;
+    margin-top: 6vw;
+    margin-bottom: 8vw;
+  }
+
+  #page4-title h1 {
+    font-size: 4.6vw;
+  }
+
+  #card-container3 {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+  }
+
+  .counter-card {
+    height: 46vw;
+    width: 90%;
+  }
+
+  .icon {
+    height: 16vw;
+    width: 16vw;
+  }
+  .icon img {
+    height: 80%;
+    width: 80%;
+  }
+
+  .counter-card h2 {
+    font-size: 6.6vw;
+  }
+  .counter-card p {
+    font-size: 4vw;
+  }
+
+  #page5-title {
+    height: fit-content;
+    width: 100%;
+    margin-top: 6vw;
+    padding: 6vw 0;
+  }
+
+  #page5-title h1 {
+    font-size: 4.6vw;
+  }
+
+  #card-container4 {
+    height: 50vw;
+  }
+
+  #card-container4 .elem-container img {
+    width: 40vw;
+  }
+
+  #bottom-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    padding: 6vw;
+  }
+
+  #bottom-container #bc-part1 {
+    width: 90%;
+    height: 50vw;
+  }
+  #bottom-container #bc-part1 img {
+    height: 26vw;
+    width: 76vw;
+  }
+  #bottom-container #bc-part1 a,
+  p,
+  i {
+    font-size: 4vw;
+  }
+
+  #bottom-container #bc-part1 a:hover {
+    color: #0274be;
+  }
+
+  #bottom-container #bc-part2 {
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bc-part2-box {
+    height: 100%;
+    width: 100%;
+  }
+
+  .bc-part2-box h2 {
+    font-size: 4.6vw;
+  }
+
+  .bc-part2-box p,
+  i {
+    font-size: 4vw;
+    line-height: 6.2vw;
+    font-weight: 400;
+  }
+
+  #footer-page {
+    height: fit-content;
+    flex-direction: column;
+    gap: 6vw;
+    padding: 6vw;
+  }
+
+  #fp-part1 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vw;
+  }
+
+  #fp-part1 a {
+    font-size: 4.2vw;
+  }
+  #fp-part2 {
+    width: 100%;
+    justify-content: center;
+    gap: 4vw;
+  }
+  #fp-part2 .fp-circle {
+    height: 9vw;
+    width: 9vw;
+  }
+  #fp-part2 .fp-circle i {
+    font-size: 4.4vw;
+  }
+
+  #whatsapp-circle {
+    height: 14vw;
+    width: 14vw;
+  }
+
+  #whatsapp-circle i {
+    font-size: 6.6vw;
+  }
+}
