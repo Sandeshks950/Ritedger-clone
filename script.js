@@ -15,46 +15,6 @@ function textChanger() {
   }, 2000);
 }
 textChanger();
-// function Counter() {
-//   const counters = [
-//     { id: "client-counter", target: 324 },
-//     { id: "staff-counter", target: 80 },
-//     { id: "rating-counter", target: 4.5, isDecimal: true },
-//     { id: "return-counter", target: 100000 },
-//   ];
-
-//   function animateCounter({ id, target, isDecimal }) {
-//     const element = document.getElementById(id);
-//     let count = 0;
-//     const steps = 100;
-//     const duration = 2000;
-//     const interval = duration / steps;
-//     const increment = target / steps;
-
-//     const update = () => {
-//       count += increment;
-//       if (count >= target) count = target;
-
-//       if (isDecimal) {
-//         element.textContent = count.toFixed(1);
-//       } else {
-//         element.textContent = Math.floor(count).toLocaleString();
-//       }
-
-//       if (count < target) {
-//         setTimeout(update, interval);
-//       }
-//     };
-
-//     update();
-//   }
-
-//   window.addEventListener("load", () => {
-//     counters.forEach((counter) => animateCounter(counter));
-//   });
-// }
-
-// Counter();
 function Counter() {
   const counters = [
     { id: "client-counter", target: 324 },
@@ -88,7 +48,7 @@ function Counter() {
   gsap.registerPlugin(ScrollTrigger);
 
   ScrollTrigger.create({
-    trigger: "#page4", // wrap your counters in this section
+    trigger: "#page4",
     start: "top 80%",
     once: true,
     onEnter: () => {
@@ -97,7 +57,3 @@ function Counter() {
   });
 }
 Counter();
-const scroll = new LocomotiveScroll({
-  el: document.querySelector("#main"),
-  smooth: true,
-});
