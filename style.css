@@ -748,6 +748,9 @@ i {
 }
 
 @media (max-width: 600px) {
+  #main {
+    position: relative;
+  }
   #nav {
     background-color: #ffffff;
     height: 10.4vh;
@@ -755,6 +758,8 @@ i {
     display: flex;
     align-items: center;
     padding: 0 1.3vw;
+    position: fixed;
+    z-index: 999999;
   }
 
   #nav img {
@@ -780,7 +785,7 @@ i {
   }
 
   #content {
-    height: 43.5vh;
+    height: 54vh;
   }
 
   #overlay h2 {
