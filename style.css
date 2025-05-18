@@ -342,6 +342,10 @@ i {
   color: #ffffff;
 }
 
+#contact #button i {
+  color: #ffffff;
+}
+
 #contact #button:hover {
   background-color: #0274be;
   cursor: pointer;
